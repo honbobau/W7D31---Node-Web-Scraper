@@ -1,0 +1,29 @@
+{
+  "name": "node_web_scraper",
+  "version": "0.0.1",
+  "description": "node web scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honbobau/W7D31---Node-Web-Scraper.git"
+  },
+  "keywords": [
+    "node",
+    "web",
+    "scraper"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/honbobau/W7D31---Node-Web-Scraper/issues"
+  },
+  "homepage": "https://github.com/honbobau/W7D31---Node-Web-Scraper#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "csv-write-stream": "^2.0.0",
+    "request": "^2.72.0"
+  }
+}
