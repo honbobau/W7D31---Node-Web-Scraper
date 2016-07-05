@@ -28,7 +28,7 @@ request(url, function(error, response, body) {
     let absoluteURL;
     let fileType;
 
-    writer.pipe(fs.createWriteStream('images.csv'))
+    writer.pipe(fs.createWriteStream('images.csv'));
     // looping through each anchor tag
     images.each(function(i, element) {
       let anchorTag = $(this);
@@ -39,10 +39,10 @@ request(url, function(error, response, body) {
         fileType = anchorTag.text().substr(anchorTag.length - 5);
         console.log(filePermission);
 
-        writer.write([filePermission, absoluteURL, fileType])
+        writer.write([filePermission, absoluteURL, fileType]);
       }
     });
-    writer.end()
+    writer.end();
 
   }
 })
